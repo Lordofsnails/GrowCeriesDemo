@@ -1,0 +1,15 @@
+<template name="StoreSingle">
+    <article class="store">
+        <h3>
+            {{store.name}}
+        </h3>
+        <p>
+            {{store.desc}}
+        </p>
+        <p>
+            {{#each store.tags}}
+                <span class="tags">{{name}}</span>
+            {{/each}}
+        </p>
+    </article>
+</template>

@@ -1,0 +1,7 @@
+<template name="Stores">
+{{#if $.Session.get 'newStore'}}
+        {{> NewStore}}
+{{else}}
+    <button class="new-store">New Store</button>
+{{/if}}
+</template>

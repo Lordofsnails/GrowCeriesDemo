@@ -1,0 +1,9 @@
+<template name="BrowseStores">
+    {{#if Template.subscriptionsReady}}
+        {{#each stores}}
+            {{> StoreInfo}}
+        {{/each}}
+    {{else}}
+        <p>Loading</p>
+    {{/if}}
+</template>
