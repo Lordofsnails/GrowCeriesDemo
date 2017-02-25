@@ -1,4 +1,4 @@
-Rings = new Mongo.Collection('stores');
+Stores = new Mongo.Collection('stores');
 
 Stores.allow({
     insert: function(userId, doc){
